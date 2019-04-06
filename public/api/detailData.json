@@ -1,0 +1,4 @@
+{
+  "title":"Immutable JS",
+  "content":"<div class='author'>this is author</div>  <div class='content'>   <img src='//upload-images.jianshu.io/upload_images/2165169-34b1e9d1e9c03fe3.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp'alt='999'/><p>Immutable 实现的原理是 Persistent Data Structure（持久化数据结构），也就是使用旧数据创建新数据时，要保证旧数据同时可用且不变</p></div>"
+}

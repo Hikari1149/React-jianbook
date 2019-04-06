@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tmp</title>
+    <style>
+        div{
+            height:200px;
+            width:100px;
+        }
+        #b0{
+            background-image:url("//upload-images.jianshu.io/upload_images/9602437-4f17381e1affc6f3.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240");
+            background-size:contain;
+            background-repeat:no-repeat;
+        }
+        #b1{
+            background:#0ff;
+            transition:all 2s ease-in 0s;
+        }
+        #b1:hover{
+            transform:rotate(-45deg);
+        }
+    </style>
+    <script>
+        window.onload=function(){
+            let b1=document.getElementById('b1');
+            console.log(b1.offsetHeight);
+        }
+    </script>
+</head>
+<body>
+<div id="b0">
+    b0
+</div>
+<div id="b1">
+    hello
+</div>
+</body>
+</html>
